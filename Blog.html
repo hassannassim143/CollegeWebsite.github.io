@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="logo.png" alt="">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Degrees for 2024</h1>
+    </section>
+
+    <!--Blog content-->
+ <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+<img src="certificate.jpg" alt="">
+<h2>Our Certificates & Online Degrees for 2024</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatem ipsum fugiat soluta saepe magni aut tempora unde esse, vel a excepturi porro omnis? Exercitationem nihil autem recusandae possimus officia?
+Laborum praesentium fugit facere nihil. Corporis dolorum excepturi voluptate perferendis obcaecati iusto praesentium vero et voluptatum. Hic nesciunt ipsa quaerat. Eos repudiandae est quia tempore corporis soluta dolorem eligendi obcaecati.
+Quo ex quaerat, harum qui corporis minus dolore ab expedita ut in quia aperiam reprehenderit voluptas itaque, illum dolorum quis praesentium, iste illo et magnam! Minima ratione corrupti similique nobis.</p>
+<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorum autem dolorem? Sunt provident, dolore quidem esse deleniti repudiandae perferendis nesciunt quis repellendus. Ipsum praesentium nihil sunt quis quibusdam laudantium!
+Accusantium commodi sunt est tempora provident aut, ratione temporibus voluptatum aliquid harum blanditiis, itaque, nam quod quis quos vero voluptates? Veritatis placeat animi obcaecati nisi? Odio voluptates sunt reprehenderit laboriosam?
+Quos debitis vero aut recusandae asperiores optio maxime quae quo perferendis nam exercitationem nisi unde tempora, aperiam dolore, dignissimos laborum nesciunt perspiciatis architecto ab. Sit, facilis illum. Vitae, atque repellat.
+Placeat cumque corporis perspiciatis libero. Hic laboriosam explicabo neque reprehenderit accusantium quidem, asperiores maiores et laudantium odit facilis repellendus deleniti? Repudiandae totam, saepe odit dignissimos maiores incidunt! Quibusdam, in ipsa!</p>
+<br><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum dolores esse eius voluptatibus vel ullam iusto voluptates, soluta dicta unde odio at qui, praesentium nemo expedita iure in? Pariatur, quia.
+Maiores esse id provident est doloremque? Quidem unde saepe iusto placeat reprehenderit libero magnam quia quisquam explicabo neque velit ex, debitis fugiat voluptatum accusantium veritatis dignissimos eaque, praesentium voluptates cupiditate.
+Ipsam totam, sapiente numquam eos quia voluptatem rerum repellat ex debitis eveniet quis nulla. Enim sint suscipit fugit tempora rem. Praesentium tempora, est debitis harum blanditiis temporibus? Esse, dignissimos velit.</p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form action="" class="Comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Enter Email">
+      <textarea placeholder="Your comment" rows="5"></textarea>
+      <button type="submit" class="hero-btn red-btn">Post Comment</button>
+    </form>
+    </div>
+          
+</div>
+<div class="blog-right">
+    <h3>Post Categories</h3>
+    <div>
+        <span>
+            Business Analytics
+        </span>
+        <span>55</span>
+    </div>
+    <div>
+        <span>
+            Information & Technology
+        </span>
+        <span>12</span>
+    </div>
+    <div>
+        <span>
+            Art
+        </span>
+        <span>94</span>
+    </div>
+    <div>
+        <span>
+            Medical
+        </span><span>39</span>
+    </div>
+    <div>
+        <span>
+            Engineering
+        </span>
+        <span>48</span>
+    </div>
+    <div>
+        <span>
+            Mass Communication
+        </span>
+        <span>57</span>
+    </div>
+</div>
+ </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid iusto harum soluta repellendus <br>incidunt.
+            Voluptatibus minima voluptas eius consequatur dolorem!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div>
+            <p>Made with <i class="fa fa-heart"> by Code with Hassi</i></p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- javascript -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+
+        }
+    </script>
+
+</body>
+
+
+</html>
